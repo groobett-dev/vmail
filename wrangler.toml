@@ -46,3 +46,8 @@ command = "pnpm run build"
 [assets]
 binding = "ASSETS"
 directory = "frontend/build/client"
+
+workers_dev = false
+routes = [
+  { pattern = "mail-temp.51yunwu.us.ci", custom_domain = true }
+]
